@@ -25,7 +25,7 @@ RUN echo 'whoami ' >>/Rfy930725.sh
 
 RUN echo 'cd ' >>/Rfy930725.sh
 #set screen resolution
-RUN echo "su -l -c 'vncserver :2000 -geometry 2560x1440' "  >>/Rfy930725.sh
+RUN echo "su -l -c 'vncserver :2000 -geometry 1280x720' "  >>/Rfy930725.sh
 
 RUN echo 'cd /noVNC-1.2.0' >>/Rfy930725.sh
 
